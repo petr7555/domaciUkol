@@ -1,12 +1,10 @@
-package com.mavenir.fibonacci;
-
 /**
  * Interface for fibonacci sequence
  *
  * @author Pavel Dohnalik (pavel.dohnalik@mavenir.com)
  * @since 7.8.18
  */
-public interface InFibonacciSequence {
+public interface inFibonacciSequence {
 
     void init();
 
