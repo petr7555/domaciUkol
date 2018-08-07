@@ -1,6 +1,6 @@
 # Domaci úkol
 
-Váš domácí úkol se zkládá ze dvou částí, první je zaměřená na testování, druhá na restApi a parsování JSON souborů. U obou úkol používejte vhodně git - nezapomenout commitovat, v masteru by měl být pouze zkompilovatelný kód, vhodně používat větve. U obou úkolů zvolte vhodný buildovací nástroj (Maven, Ant)
+Váš domácí úkol se skládá ze dvou částí, první je zaměřená na testování, druhá na restApi a parsování JSON souborů. U obou úkol používejte vhodně git - nezapomenout commitovat, v masteru by měl být pouze zkompilovatelný kód, vhodně používat větve. U obou úkolů zvolte vhodný buildovací nástroj (Maven, Ant)
 
 # Úkol 1
 1. Udělejte si klon tohoto repozitáře
