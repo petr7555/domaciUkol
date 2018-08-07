@@ -1,6 +1,8 @@
 # Domaci úkol
 
-Váš domácí úkol se skládá ze dvou částí, první je zaměřená na testování, druhá na restApi a parsování JSON souborů. U obou úkol používejte vhodně git - nezapomenout commitovat, v masteru by měl být pouze zkompilovatelný kód, vhodně používat větve. U obou úkolů zvolte vhodný buildovací nástroj (Maven, Ant)
+Váš domácí úkol se skládá ze dvou částí, první je zaměřená na testování, druhá na restApi a parsování JSON souborů. U obou úkol používejte vhodně git - nezapomenout commitovat, v masteru by měl být pouze zkompilovatelný kód, vhodně používat větve. U obou úkolů zvolte vhodný buildovací nástroj (Maven, Ant)  
+  
+  Případné otázky směrujte na pavel.dohnalik@mavenir.com  
 
 # Úkol 1
 1. Udělejte si klon tohoto repozitáře
@@ -17,7 +19,7 @@ Váš domácí úkol se skládá ze dvou částí, první je zaměřená na test
 5. Používejte vhodné buildovací nástroje (Maven, Ant...)
 
 # Úkol 2
->potřené url: https://my-json-server.typicode.com/pavelDohnalik/restApi/messages
+>potřebné url: https://my-json-server.typicode.com/pavelDohnalik/restApi/messages
 1. Vytvořte si větev RestMaster, která bude představovat master pro tento úkol
 2. implementujte program, který bude číst, parsovat a vypisovat na obrazovku data z výše uvedeného url
 3. spuštění programu:
