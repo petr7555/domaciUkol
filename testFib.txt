@@ -1,0 +1,11 @@
+Test Fibonacci.java pomocí Junit.
+setUp() - vytvoøení objektu pro testování jeho metod
+Dále testy pro ostatní metody:
+  init();
+  init(f0, f1);
+  getNext();
+  getCurrent();
+  reset();
+  getIndexOf - hranièní body, velké èíslo a záporné (neplatné) èíslo -> zachycení výjimky
+  getNumber - hranièní body, velké èíslo a záporný (neplatný) index -> zachycení výjimky
+  
