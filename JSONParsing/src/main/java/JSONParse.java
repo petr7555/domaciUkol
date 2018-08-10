@@ -35,7 +35,7 @@ public class JSONParse {
 				}
 			}
 			System.out.print(")");
-		// print element by id
+			// print element by id
 		} else if (args[0].equals("-id")) {
 			for (int i = 0; i < strArray.length; i++) {
 				Email email = gson.fromJson(strArray[i], Email.class);
@@ -45,12 +45,12 @@ public class JSONParse {
 
 				}
 			}
-		// print custom JSON
-		} else if (args.length==8) {
+			// print custom JSON
+		} else if (args.length == 8) {
 			System.out.println("{");
-			System.out.println("\"id\": " + Math.round(Math.random()*10000)+",");
-			for (int i = 0; i < args.length-1; i+=2) {
-				System.out.println("\""+args[i].substring(1, args[i].length())+"\": \""+args[i+1]+"\",");
+			System.out.println("\"id\": " + Math.round(Math.random() * 10000) + ",");
+			for (int i = 0; i < args.length - 1; i += 2) {
+				System.out.println("\"" + args[i].substring(1, args[i].length()) + "\": \"" + args[i + 1] + "\",");
 			}
 			System.out.println("}");
 		}
