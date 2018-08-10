@@ -6,17 +6,17 @@
  */
 public interface inFibonacciSequence {
 
-    void init();
+	void init();
 
-    void init(int f0, int f1);
+	void init(int f0, int f1);
 
-    void reset();
-    
-    int getNext(); 
-    
-    int getCurrent();
-    
-    int getIndexOf(int fx) throws IllegalArgumentException;
-    
-    int getNumber(int index) throws IllegalArgumentException;	
+	void reset();
+
+	int getNext();
+
+	int getCurrent();
+
+	int getIndexOf(int fx) throws IllegalArgumentException;
+
+	int getNumber(int index) throws IllegalArgumentException;
 }
